@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding: 0 60px; /* padding to the left and right */
+  
+}
+
+.rightHeader {
+  display: flex;
+  gap: 20px;
+}
+
+.loginRegister,
+.phone,
+.findUs {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #005ce6; 
+}

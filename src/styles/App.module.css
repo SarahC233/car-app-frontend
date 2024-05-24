@@ -1,0 +1,28 @@
+.app {
+  background-color: #f0f0f0; 
+  min-height: 100vh; /* 100% of the viewport height */
+}
+
+.contentWrapper {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh; /* 100% of the viewport height */
+}
+
+.content {
+  background-color:#f9f9f9;
+  width: 100%;
+  max-width: 1300px; /* width of the white section */
+}
+
+.heroImageContainer {
+  height: 280px; /* height of the hero image */
+  overflow: hidden;
+}
+
+.heroImage {
+  display: block;
+  width: 100%;
+  height: auto; /* Set the height to auto to maintain the aspect ratio */
+  margin: 0 auto;
+}
